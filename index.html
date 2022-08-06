@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Movie App</title>
+    <style media="screen">
+
+.Controls{
+  background: linear-gradient(to right,red,yellow);
+  position:fixed;
+}
+#searchButton{
+  background:linear-gradient(to right,red,yellow);
+  width: 40%;
+  height: 2.5em;
+  border-radius: 8px;
+  }
+
+  #searchWord{
+    height: 2.5em;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 10%;
+  }
+
+    </style>
+      <script type="text/javascript" src="App.js" defer></script>
+  </head>
+  <body>
+
+    <form id='myform' method="get">
+      <div class="Controls">
+      <input id="searchWord" type="text" placeholder="Search">
+      <button id="searchButton" type="submit">Search</button>
+    </div>
+    </form>
+
+  </body>
+</html>
